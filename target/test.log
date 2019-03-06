@@ -1,0 +1,399 @@
+06 Mar 2019 17:11:15,759 INFO  repository.RepoGameDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@49964d75
+06 Mar 2019 17:11:15,766 INFO  repository.RepoTicketDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@53941c2f
+06 Mar 2019 17:11:15,768 TRACE repository.RepoTicketDB 149 findAll - Enter
+06 Mar 2019 17:11:15,768 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:11:15,769 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:11:15,769 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:11:15,769 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:11:15,770 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:11:15,774 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:11:16,646 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cdc4c27)
+06 Mar 2019 17:11:16,650 TRACE repository.RepoTicketDB 166 findAll - Exit with([Domain.Ticket@663411de, Domain.Ticket@63dd899])
+06 Mar 2019 17:11:16,651 TRACE repository.RepoTicketDB 82 update - Enter Update Ticket Domain.Ticket@59d2400d
+06 Mar 2019 17:11:16,651 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:11:16,651 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1cdc4c27)
+06 Mar 2019 17:11:16,651 TRACE repository.RepoGameDB 106 findOne - Enter finding task with id 3
+06 Mar 2019 17:11:16,652 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:11:16,652 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:11:16,652 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:11:16,652 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:11:16,652 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:11:16,652 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:11:16,653 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@75cd8043)
+06 Mar 2019 17:11:16,654 TRACE repository.RepoGameDB 130 findOne - Exit: No task found with id 3
+06 Mar 2019 17:11:16,654 TRACE repository.RepoTicketDB 100 update - Exit
+06 Mar 2019 17:29:07,543 INFO  repository.RepoGameDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@49964d75 
+06 Mar 2019 17:29:07,554 INFO  repository.RepoTicketDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@53941c2f 
+06 Mar 2019 17:29:07,555 INFO  repository.RepoTransacitonDB 24 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@21fd5faa 
+06 Mar 2019 17:29:07,557 TRACE repository.RepoTicketDB 82 update - Enter Update Ticket Domain.Ticket@29a0cdb 
+06 Mar 2019 17:29:07,557 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:29:07,557 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:29:07,558 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:29:07,558 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:29:07,558 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:29:07,562 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:29:08,079 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b73be9f)
+06 Mar 2019 17:29:08,082 TRACE repository.RepoGameDB 106 findOne - Enter finding task with id 3 
+06 Mar 2019 17:29:08,083 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:29:08,083 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:29:08,083 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:29:08,083 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:29:08,083 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:29:08,083 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:29:08,084 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@33b1c5c5)
+06 Mar 2019 17:29:08,085 TRACE repository.RepoGameDB 130 findOne - Exit: No task found with id 3
+06 Mar 2019 17:29:08,086 TRACE repository.RepoTicketDB 100 update - Exit
+06 Mar 2019 17:29:19,102 INFO  repository.RepoGameDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@49964d75 
+06 Mar 2019 17:29:19,112 INFO  repository.RepoTicketDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@53941c2f 
+06 Mar 2019 17:29:19,113 INFO  repository.RepoTransacitonDB 24 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@21fd5faa 
+06 Mar 2019 17:30:05,901 INFO  repository.RepoGameDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@49964d75 
+06 Mar 2019 17:30:05,909 INFO  repository.RepoTicketDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@53941c2f 
+06 Mar 2019 17:30:05,910 INFO  repository.RepoTransacitonDB 24 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@21fd5faa 
+06 Mar 2019 17:30:05,912 TRACE repository.RepoTransacitonDB 144 findAll - Enter
+06 Mar 2019 17:30:05,912 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:30:05,912 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:30:05,913 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:30:05,913 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:30:05,913 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:30:05,916 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:30:06,468 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5d9b7a8a)
+06 Mar 2019 17:30:06,473 TRACE repository.RepoTransacitonDB 160 findAll - Exit with([])
+06 Mar 2019 17:30:36,151 INFO  repository.RepoGameDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@49964d75 
+06 Mar 2019 17:30:36,161 INFO  repository.RepoTicketDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@53941c2f 
+06 Mar 2019 17:30:36,162 INFO  repository.RepoTransacitonDB 24 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@21fd5faa 
+06 Mar 2019 17:30:36,163 TRACE repository.RepoTransacitonDB 56 save - Enter saving transaction Domain.Transaction@335b5620 
+06 Mar 2019 17:30:36,164 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:30:36,164 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:30:36,164 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:30:36,165 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:30:36,165 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:30:36,169 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:30:36,611 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1d3ac898)
+06 Mar 2019 17:30:36,615 TRACE repository.RepoTicketDB 122 findOne - Enter finding ticket with id 1 
+06 Mar 2019 17:30:36,615 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:30:36,615 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:30:36,615 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:30:36,615 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:30:36,616 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:30:36,616 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:30:36,616 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@75cd8043)
+06 Mar 2019 17:30:36,617 TRACE repository.RepoTicketDB 134 findOne - Exit with(Domain.Ticket@5b202a3a)
+06 Mar 2019 17:31:40,397 INFO  repository.RepoGameDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@49964d75 
+06 Mar 2019 17:31:40,406 INFO  repository.RepoTicketDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@53941c2f 
+06 Mar 2019 17:31:40,407 INFO  repository.RepoTransacitonDB 24 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@21fd5faa 
+06 Mar 2019 17:31:40,409 TRACE repository.RepoTransacitonDB 56 save - Enter saving transaction Domain.Transaction@335b5620 
+06 Mar 2019 17:31:40,409 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:31:40,409 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:31:40,410 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:31:40,410 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:31:40,410 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:31:40,414 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:31:40,941 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1d3ac898)
+06 Mar 2019 17:31:40,945 TRACE repository.RepoTicketDB 122 findOne - Enter finding ticket with id 1 
+06 Mar 2019 17:31:40,945 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:31:40,945 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:31:40,945 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:31:40,946 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:31:40,946 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:31:40,946 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:31:40,947 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@75cd8043)
+06 Mar 2019 17:31:40,948 TRACE repository.RepoTicketDB 134 findOne - Exit with(Domain.Ticket@5b202a3a)
+06 Mar 2019 17:32:42,795 INFO  repository.RepoGameDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@49964d75 
+06 Mar 2019 17:32:42,804 INFO  repository.RepoTicketDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@53941c2f 
+06 Mar 2019 17:32:42,805 INFO  repository.RepoTransacitonDB 24 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@21fd5faa 
+06 Mar 2019 17:32:42,807 TRACE repository.RepoTransacitonDB 56 save - Enter saving transaction Domain.Transaction@335b5620 
+06 Mar 2019 17:32:42,807 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:32:42,807 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:32:42,808 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:32:42,808 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:32:42,808 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:32:42,812 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:32:43,321 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1d3ac898)
+06 Mar 2019 17:32:43,325 TRACE repository.RepoTicketDB 122 findOne - Enter finding ticket with id 1 
+06 Mar 2019 17:32:43,325 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:32:43,325 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:32:43,325 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:32:43,325 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:32:43,326 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:32:43,326 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:32:43,327 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@75cd8043)
+06 Mar 2019 17:32:43,328 TRACE repository.RepoTicketDB 134 findOne - Exit with(Domain.Ticket@5b202a3a)
+06 Mar 2019 17:35:32,131 INFO  repository.RepoGameDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@49964d75 
+06 Mar 2019 17:35:32,140 INFO  repository.RepoTicketDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@53941c2f 
+06 Mar 2019 17:35:32,142 INFO  repository.RepoTransactionDB 24 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@21fd5faa 
+06 Mar 2019 17:35:32,143 TRACE repository.RepoTransactionDB 56 save - Enter saving transaction Domain.Transaction@335b5620 
+06 Mar 2019 17:35:32,144 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:35:32,144 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:35:32,145 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:35:32,145 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:35:32,145 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:35:32,149 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:35:32,734 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1d3ac898)
+06 Mar 2019 17:35:32,737 TRACE repository.RepoTicketDB 122 findOne - Enter finding ticket with id 1 
+06 Mar 2019 17:35:32,738 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:35:32,738 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:35:32,738 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:35:32,738 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:35:32,738 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:35:32,738 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:35:32,739 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@75cd8043)
+06 Mar 2019 17:35:32,740 TRACE repository.RepoTicketDB 134 findOne - Exit with(Domain.Ticket@5b202a3a)
+06 Mar 2019 17:35:46,337 INFO  repository.RepoGameDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@d62fe5b 
+06 Mar 2019 17:35:46,342 INFO  repository.RepoTicketDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@4b79ac84 
+06 Mar 2019 17:35:46,343 INFO  repository.RepoTransactionDB 24 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@6dab9b6d 
+06 Mar 2019 17:35:46,345 TRACE repository.RepoTransactionDB 56 save - Enter saving transaction Domain.Transaction@5a1de7fb 
+06 Mar 2019 17:35:46,346 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:35:46,346 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:35:46,346 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:35:46,347 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:35:46,347 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:35:46,351 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:35:46,841 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@604f2bd2)
+06 Mar 2019 17:35:46,845 TRACE repository.RepoTicketDB 122 findOne - Enter finding ticket with id 1 
+06 Mar 2019 17:35:46,846 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:35:46,846 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:35:46,846 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:35:46,846 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:35:46,846 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:35:46,846 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:35:46,847 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59d2400d)
+06 Mar 2019 17:35:46,848 TRACE repository.RepoTicketDB 134 findOne - Exit with(Domain.Ticket@33b1c5c5)
+06 Mar 2019 17:36:29,614 INFO  repository.RepoGameDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@49d3c823 
+06 Mar 2019 17:36:30,149 INFO  repository.RepoTicketDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@59d2400d 
+06 Mar 2019 17:36:31,311 INFO  repository.RepoTransactionDB 24 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@33b1c5c5 
+06 Mar 2019 17:36:34,059 TRACE repository.RepoTransactionDB 56 save - Enter saving transaction Domain.Transaction@74960bfa 
+06 Mar 2019 17:36:34,061 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:36:34,063 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:36:34,065 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:36:34,067 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:36:34,069 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:36:34,099 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:36:36,867 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@306851c7)
+06 Mar 2019 17:36:43,865 TRACE repository.RepoTicketDB 122 findOne - Enter finding ticket with id 1 
+06 Mar 2019 17:36:43,867 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:36:43,868 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:36:43,870 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:36:43,872 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:36:43,874 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:36:43,876 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:36:43,879 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@f73dcd6)
+06 Mar 2019 17:36:43,884 TRACE repository.RepoTicketDB 134 findOne - Exit with(Domain.Ticket@2fea7088)
+06 Mar 2019 17:39:36,363 INFO  repository.RepoGameDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@49964d75 
+06 Mar 2019 17:39:36,372 INFO  repository.RepoTicketDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@53941c2f 
+06 Mar 2019 17:39:36,373 INFO  repository.RepoTransactionDB 24 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@21fd5faa 
+06 Mar 2019 17:39:36,375 TRACE repository.RepoTransactionDB 56 save - Enter saving transaction Domain.Transaction@335b5620 
+06 Mar 2019 17:39:36,375 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:39:36,375 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:39:36,376 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:39:36,376 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:39:36,376 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:39:36,379 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:39:38,071 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1d3ac898)
+06 Mar 2019 17:39:38,075 TRACE repository.RepoTicketDB 122 findOne - Enter finding ticket with id 1 
+06 Mar 2019 17:39:38,075 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:39:38,075 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:39:38,076 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:39:38,076 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:39:38,076 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:39:38,076 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:39:38,077 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@75cd8043)
+06 Mar 2019 17:39:38,078 TRACE repository.RepoTicketDB 134 findOne - Exit with(Domain.Ticket@5b202a3a)
+06 Mar 2019 17:41:22,746 INFO  repository.RepoGameDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@49964d75 
+06 Mar 2019 17:41:22,756 INFO  repository.RepoTicketDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@53941c2f 
+06 Mar 2019 17:41:22,757 INFO  repository.RepoTransactionDB 24 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@21fd5faa 
+06 Mar 2019 17:41:22,759 TRACE repository.RepoTransactionDB 142 findAll - Enter
+06 Mar 2019 17:41:22,760 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:41:22,760 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:41:22,760 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:41:22,760 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:41:22,760 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:41:22,764 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:41:23,243 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5d9b7a8a)
+06 Mar 2019 17:41:23,247 TRACE repository.RepoTransactionDB 158 findAll - Exit with([])
+06 Mar 2019 17:41:23,248 TRACE repository.RepoTicketDB 58 save - Enter saving Ticket Domain.Ticket@59d2400d 
+06 Mar 2019 17:41:23,248 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:41:23,248 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:41:23,248 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:41:23,248 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:41:23,248 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:41:23,248 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:41:23,250 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@75cd8043)
+06 Mar 2019 17:41:23,250 TRACE repository.RepoGameDB 106 findOne - Enter finding task with id 3 
+06 Mar 2019 17:41:23,250 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:41:23,250 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:41:23,250 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:41:23,250 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:41:23,250 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:41:23,250 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:41:23,250 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@33b1c5c5)
+06 Mar 2019 17:41:23,252 TRACE repository.RepoGameDB 130 findOne - Exit: No task found with id 3
+06 Mar 2019 17:41:23,253 TRACE repository.RepoTicketDB 76 save - Exit
+06 Mar 2019 17:41:44,091 INFO  repository.RepoGameDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@49964d75 
+06 Mar 2019 17:41:44,101 INFO  repository.RepoTicketDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@53941c2f 
+06 Mar 2019 17:41:44,102 INFO  repository.RepoTransactionDB 24 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@21fd5faa 
+06 Mar 2019 17:41:44,103 TRACE repository.RepoTransactionDB 142 findAll - Enter
+06 Mar 2019 17:41:44,103 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:41:44,104 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:41:44,104 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:41:44,104 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:41:44,104 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:41:44,108 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:41:44,587 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5d9b7a8a)
+06 Mar 2019 17:41:44,591 TRACE repository.RepoTransactionDB 158 findAll - Exit with([])
+06 Mar 2019 17:41:44,592 TRACE repository.RepoTicketDB 58 save - Enter saving Ticket Domain.Ticket@59d2400d 
+06 Mar 2019 17:41:44,592 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:41:44,592 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:41:44,593 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:41:44,593 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:41:44,593 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:41:44,593 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:41:44,594 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@75cd8043)
+06 Mar 2019 17:41:44,594 TRACE repository.RepoGameDB 106 findOne - Enter finding task with id 1 
+06 Mar 2019 17:41:44,594 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:41:44,594 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:41:44,595 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:41:44,595 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:41:44,595 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:41:44,595 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:41:44,596 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@33b1c5c5)
+06 Mar 2019 17:41:44,598 TRACE repository.RepoGameDB 120 findOne - Exit with(Domain.Game@34cdeda2)
+06 Mar 2019 17:41:46,130 TRACE repository.RepoTicketDB 76 save - Exit
+06 Mar 2019 17:43:17,435 INFO  repository.RepoGameDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@49964d75 
+06 Mar 2019 17:43:17,446 INFO  repository.RepoTicketDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@53941c2f 
+06 Mar 2019 17:43:17,447 INFO  repository.RepoTransactionDB 24 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@21fd5faa 
+06 Mar 2019 17:43:17,449 TRACE repository.RepoTransactionDB 56 save - Enter saving transaction Domain.Transaction@335b5620 
+06 Mar 2019 17:43:17,450 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:43:17,450 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:43:17,450 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:43:17,451 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:43:17,451 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:43:17,455 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:43:17,933 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1d3ac898)
+06 Mar 2019 17:43:17,936 TRACE repository.RepoTicketDB 122 findOne - Enter finding ticket with id 1 
+06 Mar 2019 17:43:17,936 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:43:17,936 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:43:17,937 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:43:17,937 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:43:17,937 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:43:17,937 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:43:17,938 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@75cd8043)
+06 Mar 2019 17:43:17,940 TRACE repository.RepoTicketDB 134 findOne - Exit with(Domain.Ticket@5b202a3a)
+06 Mar 2019 17:46:17,642 INFO  repository.RepoGameDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@49964d75 
+06 Mar 2019 17:46:17,652 INFO  repository.RepoTicketDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@53941c2f 
+06 Mar 2019 17:46:17,654 INFO  repository.RepoTransactionDB 24 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@21fd5faa 
+06 Mar 2019 17:46:17,656 TRACE repository.RepoTransactionDB 56 save - Enter saving transaction Domain.Transaction@335b5620 
+06 Mar 2019 17:46:17,656 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:46:17,657 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:46:17,657 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:46:17,657 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:46:17,658 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:46:17,662 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:46:18,105 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1d3ac898)
+06 Mar 2019 17:46:18,109 TRACE repository.RepoTicketDB 122 findOne - Enter finding ticket with id 1 
+06 Mar 2019 17:46:18,109 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:46:18,109 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:46:18,109 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:46:18,110 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:46:18,110 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:46:18,110 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:46:18,110 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@75cd8043)
+06 Mar 2019 17:46:18,112 TRACE repository.RepoTicketDB 134 findOne - Exit with(Domain.Ticket@5b202a3a)
+06 Mar 2019 17:46:26,660 INFO  repository.RepoGameDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@302a07d 
+06 Mar 2019 17:46:26,671 INFO  repository.RepoTicketDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@655ef322 
+06 Mar 2019 17:46:26,676 INFO  repository.RepoTransactionDB 24 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@3401a114 
+06 Mar 2019 17:46:26,678 TRACE repository.RepoTransactionDB 56 save - Enter saving transaction Domain.Transaction@54e22bdd 
+06 Mar 2019 17:46:26,678 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:46:26,678 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:46:26,679 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:46:26,679 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:46:26,679 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:46:26,683 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:46:27,109 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@10993713)
+06 Mar 2019 17:46:31,505 TRACE repository.RepoTicketDB 122 findOne - Enter finding ticket with id 1 
+06 Mar 2019 17:46:31,507 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:46:31,509 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:46:31,511 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:46:31,513 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:46:31,515 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:46:31,517 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:46:31,520 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@75e91545)
+06 Mar 2019 17:46:31,524 TRACE repository.RepoTicketDB 134 findOne - Exit with(Domain.Ticket@531c311e)
+06 Mar 2019 17:47:05,866 INFO  repository.RepoGameDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@49964d75 
+06 Mar 2019 17:47:05,876 INFO  repository.RepoTicketDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@53941c2f 
+06 Mar 2019 17:47:05,877 INFO  repository.RepoTransactionDB 24 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@21fd5faa 
+06 Mar 2019 17:47:05,879 TRACE repository.RepoTransactionDB 56 save - Enter saving transaction Domain.Transaction@335b5620 
+06 Mar 2019 17:47:05,879 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:47:05,879 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:47:05,880 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:47:05,880 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:47:05,880 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:47:05,884 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:47:06,514 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1d3ac898)
+06 Mar 2019 17:47:06,518 TRACE repository.RepoTicketDB 122 findOne - Enter finding ticket with id 1 
+06 Mar 2019 17:47:06,518 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:47:06,518 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:47:06,518 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:47:06,518 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:47:06,518 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:47:06,519 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:47:06,519 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@75cd8043)
+06 Mar 2019 17:47:06,520 TRACE repository.RepoTicketDB 134 findOne - Exit with(Domain.Ticket@5b202a3a)
+06 Mar 2019 17:47:06,675 TRACE repository.RepoTransactionDB 72 save - Exit
+06 Mar 2019 17:47:06,676 TRACE repository.RepoTransactionDB 142 findAll - Enter
+06 Mar 2019 17:47:06,676 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:47:06,676 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1d3ac898)
+06 Mar 2019 17:47:06,678 ERROR repository.RepoTransactionDB 155 findAll - java.sql.SQLException: no such column: 'tickedID'
+06 Mar 2019 17:47:06,678 TRACE repository.RepoTransactionDB 158 findAll - Exit with([])
+06 Mar 2019 17:47:46,343 INFO  repository.RepoGameDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@d62fe5b 
+06 Mar 2019 17:47:46,352 INFO  repository.RepoTicketDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@4b79ac84 
+06 Mar 2019 17:47:46,353 INFO  repository.RepoTransactionDB 24 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@6dab9b6d 
+06 Mar 2019 17:47:46,354 TRACE repository.RepoTransactionDB 56 save - Enter saving transaction Domain.Transaction@5a1de7fb 
+06 Mar 2019 17:47:46,355 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:47:46,355 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:47:46,355 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:47:46,355 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:47:46,356 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:47:46,359 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:47:46,973 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@604f2bd2)
+06 Mar 2019 17:47:46,976 TRACE repository.RepoTicketDB 122 findOne - Enter finding ticket with id 1 
+06 Mar 2019 17:47:46,977 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:47:46,977 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:47:46,977 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:47:46,977 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:47:46,977 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:47:46,977 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:47:46,978 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59d2400d)
+06 Mar 2019 17:47:46,979 TRACE repository.RepoTicketDB 134 findOne - Exit with(Domain.Ticket@33b1c5c5)
+06 Mar 2019 17:47:46,983 ERROR repository.RepoTransactionDB 67 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT]  Abort due to constraint violation (UNIQUE constraint failed: Transactions.ID)
+06 Mar 2019 17:47:46,983 TRACE repository.RepoTransactionDB 72 save - Exit
+06 Mar 2019 17:47:46,983 TRACE repository.RepoTransactionDB 142 findAll - Enter
+06 Mar 2019 17:47:46,984 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:47:46,984 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@604f2bd2)
+06 Mar 2019 17:47:46,984 ERROR repository.RepoTransactionDB 155 findAll - java.sql.SQLException: no such column: 'tickedID'
+06 Mar 2019 17:47:46,984 TRACE repository.RepoTransactionDB 158 findAll - Exit with([])
+06 Mar 2019 17:48:02,196 INFO  repository.RepoGameDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@49964d75 
+06 Mar 2019 17:48:02,205 INFO  repository.RepoTicketDB 26 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@53941c2f 
+06 Mar 2019 17:48:02,207 INFO  repository.RepoTransactionDB 24 <init> - Initializing SortingTaskRepository with properties: repository.JdbcUtils@21fd5faa 
+06 Mar 2019 17:48:02,209 TRACE repository.RepoTransactionDB 56 save - Enter saving transaction Domain.Transaction@335b5620 
+06 Mar 2019 17:48:02,209 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:48:02,209 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:48:02,209 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:48:02,210 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:48:02,210 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:48:02,214 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:48:02,787 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1d3ac898)
+06 Mar 2019 17:48:02,791 TRACE repository.RepoTicketDB 122 findOne - Enter finding ticket with id 1 
+06 Mar 2019 17:48:02,791 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:48:02,791 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+06 Mar 2019 17:48:02,791 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:MPPMP.db
+06 Mar 2019 17:48:02,791 INFO  repository.JdbcUtils 27 getNewConnection - user: 
+06 Mar 2019 17:48:02,792 INFO  repository.JdbcUtils 28 getNewConnection - pass: 
+06 Mar 2019 17:48:02,792 INFO  repository.JdbcUtils 32 getNewConnection - Loaded driver ...org.sqlite.JDBC
+06 Mar 2019 17:48:02,793 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@75cd8043)
+06 Mar 2019 17:48:02,794 TRACE repository.RepoTicketDB 134 findOne - Exit with(Domain.Ticket@5b202a3a)
+06 Mar 2019 17:48:02,797 ERROR repository.RepoTransactionDB 67 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT]  Abort due to constraint violation (UNIQUE constraint failed: Transactions.ID)
+06 Mar 2019 17:48:02,798 TRACE repository.RepoTransactionDB 72 save - Exit
+06 Mar 2019 17:48:02,798 TRACE repository.RepoTransactionDB 142 findAll - Enter
+06 Mar 2019 17:48:02,798 TRACE repository.JdbcUtils 48 getConnection - Enter
+06 Mar 2019 17:48:02,798 TRACE repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1d3ac898)
+06 Mar 2019 17:48:02,798 TRACE repository.RepoTransactionDB 158 findAll - Exit with([Domain.Transaction@74960bfa])
